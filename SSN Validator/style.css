@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: bisque;
+}
+
+.container {
+  /* border: 2px solid red; */
+  text-align: center;
+  margin-top: 100px;
+}
+h1 {
+    /* border: 2px solid red; */
+    color: #4caf50;
+}
+.h2 {
+  padding-top: 50px;
+}
+.h2 input {
+  /* border: 2px solid red; */
+  height: 2rem;
+  padding: 10px 20px;
+  border: 3px solid green;
+  padding-right: 10px;
+  
+}
+#validateButton {
+  /* border: 2px solid red; */
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
