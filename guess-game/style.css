@@ -12,19 +12,17 @@ h1 {
   position: absolute;
   width: 100%;
   text-align: center;
-
-  top: 50%;
 }
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
-  background-color: red;
+  background-color: black;
 }
 
 .between {
   text-align: right;
-  margin-top: 20px;
+  margin-top: px;
 }
 
 .btn {
@@ -32,7 +30,6 @@ body {
   margin-left: 15px;
   border: none;
   font-family: inherit;
-  /* parent tan inherit etsin alsın */
   font-size: 20px;
   padding: 20px 25px;
   cursor: pointer;
@@ -52,7 +49,6 @@ body {
   font-size: 45px;
   text-align: center;
   transform: translate(-50%, 50%);
-  /* çizginin üzerinde görünsün diye */
 }
 main {
   height: 600px;
@@ -75,7 +71,6 @@ main {
 .guess {
   background: none;
   border: 5px solid #eee;
-  /* parent ın font-family sini kalıtımsal olarak al, aynısını kullan */
   font-family: inherit;
   color: inherit;
   font-size: 30px;
@@ -83,7 +78,7 @@ main {
   width: 300px;
   display: block;
   margin-bottom: 20px;
-  padding: 50px;
+  padding: 40px;
 }
 .msg {
   margin-bottom: 150px;
