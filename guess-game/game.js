@@ -11,7 +11,7 @@ document.querySelector(".check").addEventListener("click", () => {
   const guess = document.querySelector(".guess").value;
 
   if (!guess) {
-    message.textContent = "Lütfen bir sayı giriniz...";
+    message.textContent = "Please enter a number...";
   } else if (guess == randomNumber) {
     message.textContent = "Congrats...You find👏";
     document.querySelector("body").style.backgroundColor = "green";
@@ -29,12 +29,12 @@ document.querySelector(".check").addEventListener("click", () => {
       document.querySelector(".score").textContent = score;
 
       guess < randomNumber
-        ? (message.textContent = "Arttır👆")
-        : (message.textContent = "Azalt👇");
+        ? (message.textContent = "Enhance👆")
+        : (message.textContent = "Decrease👇");
     } else {
-      message.textContent = "Oyunu Kaybettiniz🥺";
+      message.textContent = "You lost game🥺";
       document.querySelector(".score").textContent = 0;
-      document.querySelector("body").style.backgroundColor = "black";
+      document.querySelector("body").style.backgroundColor = "red";
     }
   }
 });
