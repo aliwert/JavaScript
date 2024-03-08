@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: chocolate;
+}
+.container {
+  width: 100px;
+  padding-top: 5rem;
+  margin: auto;
+}
+.card {
+  height: 250px;
+  /* border: 2px solid red; */
+}
+.container button {
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  margin-top: 0;
+  background-color: black;
+  color: orange;
+}
