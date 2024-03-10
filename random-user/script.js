@@ -5,12 +5,12 @@ const randomUser = async () => {
     const URL = `https://randomuser.me/api/`;
 
     try { 
-        const res = await fetch(URL)
-        if(!res.ok){
-            throw new Error(`${res.status}`)
+        const resolve = await fetch(URL)
+        if(!resolve.ok){
+            throw new Error(`${resolve.status}`)
         }
-        const data = await res.json()
-        displayUser(data.results) 
+        const data = await resolve.json()
+        displayUser(data.resolveults) 
     } catch (error) {
         console.log(error);
     }
@@ -26,7 +26,7 @@ const displayUser = (user) => {
                 <h5 class="card-title text-center">${name.title}. ${name.first} ${name.last}</h5>
                 <p class="card-text">Age: ${dob.age}</p>
                 <p class="card-text">Phone: ${phone}</p>
-                <p class="card-text">Adress: ${location.city}-${location.country}</p>
+                <p class="card-text">Adresolves: ${location.city}-${location.country}</p>
             </div>
         </div>
         `
