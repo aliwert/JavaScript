@@ -19,7 +19,7 @@ const randomUser = async () => {
 const displayUser = (user) => {
     const userCard = document.getElementById("card")
     user.forEach(({ picture, name, dob, phone, location}) => {
-        userCard.innerHTML = `
+        userCard.innerHTML += `
         <div class="card bg-success text-white" style="width: 18rem;">
             <img src="${picture.large}" class="card-img-top p-2">
             <div class="card-body">
