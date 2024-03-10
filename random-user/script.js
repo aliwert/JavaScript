@@ -20,7 +20,7 @@ const displayUser = (user) => {
     const userCard = document.getElementById("card")
     user.forEach(({ picture, name, dob, phone, location}) => {
         userCard.innerHTML += `
-        <div class="card bg-success text-white" style="width: 18rem;">
+        <div class="card bg-success text-white" style="width: 20rem;">
             <img src="${picture.large}" class="card-img-top p-2">
             <div class="card-body">
                 <h5 class="card-title text-center">${name.title}. ${name.first} ${name.last}</h5>
