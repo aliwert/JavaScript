@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+
+body {
+  font-family: "Madimi One", sans-serif;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .container {
   text-align: center;
@@ -29,6 +35,5 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  color: #A28089;
-  
+  color: #a28089;
 }
