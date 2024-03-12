@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+  text-align: center;
+  width: 100vw;
+}
+
+.text {
+  color: #333;
+}
+
+.input {
+  margin-top: 20px;
+}
+
+.form {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.countries {
+  margin-top: 20px;
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #A28089;
+  
+}
